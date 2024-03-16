@@ -1,6 +1,5 @@
 import Home from '../pages/Home.tsx'
 import Dashboard from '../pages/Dashboard.tsx'
-import About from '../pages/About.tsx'
 
 interface RouteType {
     path: string,
@@ -19,11 +18,6 @@ const routes: RouteType[] = [
       component: Dashboard,
       name: "Dashboard",
     },
-    {
-      path: "/About",
-      component: About,
-      name: "About",
-    }
 ];
 
 export default routes
